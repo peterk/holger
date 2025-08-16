@@ -1,0 +1,20 @@
+[package]
+name = "holger-python-repository"
+version = "0.2.0"
+edition = "2021"
+authors = ["Rickard Lundin <rickard@x14.se>","Wilhelm Ågren"]
+
+
+description = "Python package repository backend for Holger."
+license = "MIT"
+repository = "https://github.com/Ignalina/holger"
+readme = "../README.md"
+categories = ["command-line-utilities","development-tools"]
+keywords = ["znippy", "artifacts", "blake3", "cli","airgap"]
+
+
+[dependencies]
+anyhow = "1.0.98"
+#holger-traits = {path="../holger-traits"}
+holger-traits = {version = "0.2.0"}
+

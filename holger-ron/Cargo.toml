@@ -28,6 +28,7 @@ derivative = "2.2.0"
 holger-traits = {version = "0.2.0"}
 #holger-rust-repository = {path ="../holger-rust-repository"}
 holger-rust-repository = {version = "0.2.0"}
+holger-python-repository = {path = "../holger-python-repository"}
 
 hyper-util = { version = "0.1.16", features = ["tokio"] }
 tokio-rustls = "0.26.2"
